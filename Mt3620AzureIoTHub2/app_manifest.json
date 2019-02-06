@@ -1,0 +1,18 @@
+{
+  "SchemaVersion": 1,
+  "Name": "Mt3620AzureIoTHub2",
+  "ComponentId": "904c4f30-6ec7-4575-9703-e07c076de8e9",
+  "EntryPoint": "/bin/app",
+  "CmdArgs": [],
+  "Capabilities": {
+    "AllowedConnections": [ "global.azure-devices-provisioning.net", "AzureSphere23.azure-devices.net", "ping23iothub.azure-devices.net" ],
+    "AllowedTcpServerPorts": [],
+    "AllowedUdpServerPorts": [],
+    "Gpio": [ 8, 9, 10, 15, 16, 17, 18, 19, 20, 12, 13, 0, 1, 4, 5, 57, 58, 11, 14, 48 ],
+    "Uart": [ "ISU0", "ISU3", "ISU2" ],
+    "WifiConfig": true,
+    "NetworkConfig": false,
+    "SystemTime": false,
+    "DeviceAuthentication": "2ff44098-44e8-44ff-9ced-f3777bacf252"
+  }
+}
